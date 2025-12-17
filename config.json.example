@@ -1,0 +1,132 @@
+{
+  "rss_interval_minutes": 15,
+  "data_dir": "data",
+  "timeout": 30.0,
+  "retry_count": 3,
+  "retry_delay": 2.0,
+  "user_agent": "RSSScraper/1.0",
+  "service_mode": false,
+  "sources": {
+    "mehrnews": {
+      "enabled": true,
+      "rss_url": "https://www.mehrnews.com/rss",
+      "xml_config": {
+        "languageId": "1",
+        "priorityId": "",
+        "organizationalUnitId": "",
+        "securityId": "",
+        "newsTypeId": "",
+        "newsAgencyId": "1",
+        "resourceId": "",
+        "ownerId": "",
+        "reporterId": "",
+        "translatorId": "",
+        "producer": "12",
+        "actionStatusId": "",
+        "sourceId": "12",
+        "sourceType": "",
+        "destinationType": "",
+        "newsCategories": {
+          "id": "12"
+        }
+      }
+    },
+    "tasnimnews": {
+      "enabled": true,
+      "listing_url": "https://www.tasnimnews.com/fa/archive",
+      "xml_config": {
+        "languageId": "1",
+        "priorityId": "",
+        "organizationalUnitId": "",
+        "securityId": "",
+        "newsTypeId": "",
+        "newsAgencyId": "1",
+        "resourceId": "",
+        "ownerId": "",
+        "reporterId": "",
+        "translatorId": "",
+        "producer": "12",
+        "actionStatusId": "",
+        "sourceId": "12",
+        "sourceType": "",
+        "destinationType": "",
+        "newsCategories": {
+          "id": "12"
+        }
+      }
+    },
+    "farsnews": {
+      "enabled": true,
+      "listing_url": "https://farsnews.ir/search",
+      "xml_config": {
+        "languageId": "1",
+        "priorityId": "",
+        "organizationalUnitId": "",
+        "securityId": "",
+        "newsTypeId": "",
+        "newsAgencyId": "1",
+        "resourceId": "",
+        "ownerId": "",
+        "reporterId": "",
+        "translatorId": "",
+        "producer": "12",
+        "actionStatusId": "",
+        "sourceId": "12",
+        "sourceType": "",
+        "destinationType": "",
+        "newsCategories": {
+          "id": "12"
+        }
+      }
+    },
+    "irna": {
+      "enabled": true,
+      "rss_url": "https://www.irna.ir/rss",
+      "xml_config": {
+        "languageId": "1",
+        "priorityId": "",
+        "organizationalUnitId": "",
+        "securityId": "",
+        "newsTypeId": "",
+        "newsAgencyId": "1",
+        "resourceId": "",
+        "ownerId": "",
+        "reporterId": "",
+        "translatorId": "",
+        "producer": "12",
+        "actionStatusId": "",
+        "sourceId": "12",
+        "sourceType": "",
+        "destinationType": "",
+        "newsCategories": {
+          "id": "12"
+        }
+      }
+    },
+    "isna": {
+      "enabled": true,
+      "listing_url": "https://www.isna.ir/page/archive.xhtml",
+      "xml_config": {
+        "languageId": "1",
+        "priorityId": "",
+        "organizationalUnitId": "",
+        "securityId": "",
+        "newsTypeId": "",
+        "newsAgencyId": "1",
+        "resourceId": "",
+        "ownerId": "",
+        "reporterId": "",
+        "translatorId": "",
+        "producer": "12",
+        "actionStatusId": "",
+        "sourceId": "12",
+        "sourceType": "",
+        "destinationType": "",
+        "newsCategories": {
+          "id": "12"
+        }
+      }
+    }
+  }
+}
+
